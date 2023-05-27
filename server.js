@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["https://www.buddhistdiary.com", "https://budd-back.herokuapp.com" ],
+    origin: ["https://www.buddhistdiary.com", "https://n-b-back.vercel.app" ],
     credentials: true,
   })
 );
